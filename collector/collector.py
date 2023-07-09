@@ -3,7 +3,7 @@ import json
 
 PATH = "collections.json"
 
-item_types = ["Computer", "Camera", "Phone", "Video Player"]  # Define item types as a global variable
+item_types = ["Computer", "Camera", "Phone", "Video Player"]  # Define item types
 
 
 # Function to load data from a file
@@ -18,7 +18,7 @@ def get_collections(filepath=PATH):
 
 # Function to save data to a file
 def write_collections(collection, filepath=PATH):
-    with open(filepath, "w") as file:  # Изменили имя файла на "collections.json"
+    with open(filepath, "w") as file:
         json.dump(collection, file)
 
 
