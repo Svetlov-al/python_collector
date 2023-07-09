@@ -1,0 +1,55 @@
+python script database programme to do the below:
+
+1. Add items to the collection.
+
+2. Show the items in the Collection.
+	
+	Iten Types should be categorised:
+	
+	1. Computer
+	2. Camera
+	3. Phone
+	4. Video Player
+   
+   User also have the option add and edit more item types.	
+
+3. Delete Items in the Collection.
+
+4. Add an option to make the user add items types within the collection.
+
+
+Also user can open to edit as well existing items.
+
+
+Python Collector
+----------------
+1. Add Item to Collection.
+2. Show Items in Collection.
+3. Delete Items from Collection.
+4. Exit
+Choice> 1
+
+Adding an Item
+--------------
+Title> IBM 5150 Computer
+Types: 1. Computer, 2. Camera, 3. Phone, 4. Video Player
+Type> 1
+Date Added> 25/07/2019
+Date of Manufacture> 12/08/1981
+Description> The original IBM PC.
+Item Added!
+
+
+Python Collector
+----------------
+1. Add Item to Collection.
+2. Show Items in Collection.
+3. Delete Items from Collection.
+4. Exit
+Choice> 2
+Types: 1. Computer, 2. Camera, 3. Phone, 4. Video Player
+Type> 1
+Showing: Computer
+Item Date Added Date of Manufacture
+IBM 5150 Computer 25/07/2019 12/08/1981
+Apple II 12/01/2018 14/07/1977
